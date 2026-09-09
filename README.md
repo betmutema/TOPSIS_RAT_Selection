@@ -52,11 +52,10 @@ A more realistic implementation would incorporate:
 
 ## Repository Structure
 
-*(adjust to match your actual files once uploaded)*
-
 ```
-├── EEE4121F_Project_MTMBRE002_2024.pdf
-└── EEE4121F_Project_MTMBRE002_Code.mlx
+├── EEE4121F_Project_MTMBRE002_2024.pdf   # Full project report
+├── EEE4121F_Project_MTMBRE002_Code.mlx   # MATLAB Live Script: full TOPSIS implementation and simulation
+└── README.md
 ```
 
 ## Requirements
@@ -66,12 +65,7 @@ A more realistic implementation would incorporate:
 
 ## Usage
 
-```matlab
-% Example — adjust to match your actual script names and function signatures
-simulate_users(100);
-results = topsis_selection(decision_matrix);
-plot_results(results);
-```
+Open `EEE4121F_Project_MTMBRE002_Code.mlx` in MATLAB and run it as a Live Script. The full pipeline, decision matrix construction, normalization, weighting, ideal/negative-ideal solution calculation, and the 100-user simulation, runs top to bottom in one file, with results and plots generated inline.
 
 ## About
 
