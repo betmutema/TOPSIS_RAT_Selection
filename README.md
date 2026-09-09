@@ -55,12 +55,8 @@ A more realistic implementation would incorporate:
 *(adjust to match your actual files once uploaded)*
 
 ```
-├── topsis_selection.m       # Core TOPSIS implementation (decision matrix, normalization, ranking)
-├── simulate_users.m         # Generates 100 simulated users with randomized criterion weights
-├── decision_matrix.m        # Constructs and normalizes the 3G/4G/Wi-Fi decision matrix
-├── plot_results.m           # Visualizes closeness coefficients and RAT selection outcomes
-├── results/                 # Output figures and simulation data
-└── README.md
+├── EEE4121F_Project_MTMBRE002_2024.pdf
+└── EEE4121F_Project_MTMBRE002_Code.mlx
 ```
 
 ## Requirements
